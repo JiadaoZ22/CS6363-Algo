@@ -85,6 +85,10 @@ lg(lg^*)n > n^{1/\lg n} = 2 = 1$$
 > **Obviously, the increase in numerator is less than the increase in denominator. So the $H(n)$ is monotonically decreasing.**
 > - $H(n)$ won't be $0$ because the numerator is always larger than 0.
 > - As well, $H(n)$ won't be $\infty$ because the denominator is always larger than 0.
+> 
+> $\lim\limits_{n \rightarrow \infty}{{\sum\limits_{i=1}^{i=n}i^2} \over {n^3}} \in (0, \infty)$
+> 
+> **So get proved**
  
     
         
