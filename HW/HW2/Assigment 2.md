@@ -38,7 +38,7 @@ S(k) &= 3S(k/2)+\lg k           \\
     &= C \cdot k^{lg3}+({3\over {2}}d+1)k       \\
     \textrm{If } d \geq -2:     \\
     S(k) &\geq C \cdot k^{\lg 3}+dk     \\
-\end{aligned}$$     Thus, $S(k)=\Theta(k^{\lg 3})$, according to our transformation: $T(n) \rightarrow T(2^k)=S(k)$. Therefore we have $T(n)=\Theta((\lg k=n)^{\lg 3})$
+\end{aligned}$$     Thus, $S(k)=\Theta(k^{\lg 3})$, according to our transformation: $T(n) \rightarrow T(2^k)=S(k)$. Therefore we have $T(n)=\Theta((\lg n)^{\lg 3})$
   
   
 ## Q3
@@ -87,7 +87,7 @@ $$  3^\epsilon cn^{1-\epsilon}+n/\lg n \geq cn^{1-\epsilon}      \\
 The function is soft Theta of n.  
   
 ### c: $T(n)=4T(n/2)+n^2\sqrt n$
-Look at the equation: $T(n)=4T(n/2)+n^{5/2}$, according to M.T. $\textrm{a=4, b=2, }\log_ba=2, \textrm{ and }f(n)=n^{5/2}=\Theta(n^{2+\epsilon}) \textrm{ for } \epsilon=1/2$
+Look at the equation: $T(n)=4T(n/2)+n^{5/2}$, according to M.T., we have $\textrm{a=4, b=2, }\log_ba=2, \textrm{ and }f(n)=n^{5/2}=\Theta(n^{2+\epsilon}) \textrm{ for } \epsilon=1/2$.  
 So we look at case 3 regulation part 2:
 $$af(n/b)=4(n/2)^2\sqrt{n/2}=n^{5/2}/\sqrt2 \leq cn^{5/2}, \ \forall c \in [{1 \over \sqrt2},1)$$       Since part 1 and part 2 are satisfied, case 3 is applied.   
    
