@@ -81,7 +81,7 @@
         \sum_{i=1}^nC_i &= s_1+(s_1+s_2)+...+(s_1+s_2+...+s_{n_\alpha})      \\
         &= \sum_{k=1}^{n_\alpha}(n-k+1)s_k
         \end{aligned}$$
-    - Still the same, to minimize $\sum_{i=1}^nC_i$, for all $m$ machines, we have to put the longest time required jobs at the end of each machine's schedule. The we put the remaining longest time required jobs at the second end of all $m$ machines' schedule. And so on.
+    - Still the same, to minimize $\sum_{i=1}^nC_i$, for all $m$ machines, we have to put the $m$ longest time required jobs, one job for one machine, at the end of each machine's schedule. The we put $m$ remaining longest time required jobs at the second end of all $m$ machines' schedule. And so on. Finally, if we have some slot for some machine, then just move all their schedule forward one step.
     
 ## Q3
 > ![-w917](media/15616048765879/15616370588106.jpg)![-w918](media/15616048765879/15616371319835.jpg)
